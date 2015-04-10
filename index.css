@@ -1,0 +1,258 @@
+title {
+    display: none;
+}
+
+* {display:flex;
+    flex-flow: wrap;
+}
+
+.container {
+    flex-direction:column;
+    font-family: "Cabin", sans-serif;
+    color: white;
+}
+
+
+.intro {
+    flex-direction:column;
+    justify-content: space-between;
+    max-width: 100%;
+    background-image: url("img/header_background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-x: 100%;
+    background-position-y: 100%;
+}
+
+.header {
+    flex-direction: row;
+    padding: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header span {
+    padding: 25px;
+}
+
+.introtext {
+    flex-direction: column;
+    margin: 80px;
+}
+
+.introtext p {
+    font-size: 1.2em;
+}
+
+.greenbar {
+    background-color: #25aa99;
+    margin: 35px;
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.greenbar span {
+    padding-right: 40px;
+    padding-left: 40px;
+    justify-content: flex-start;
+}
+
+.maintext {
+    flex-direction: column;
+    color: black;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.thumbnails {
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    margin: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.thumb {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.thumb img {
+    max-width: 100%;
+}
+
+.thumb span {
+    padding-top: 7px;
+}
+
+.thumb .caption2 {
+    color: #25aa99;
+}
+
+.thumb .caption3 {
+    color: grey;
+}
+
+.graph {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top:50px;
+    margin-bottom: 35px;
+    max-height: 100%;
+    max-width: 100%;
+    background-image:
+}
+
+.graph img {
+    min-width:100%;
+}
+
+.signup {
+    margin-top: 85px;
+    background-color: #25aa99;
+    background-size: cover;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup img {
+
+}
+
+form {
+    align-items: center;
+    margin-right: 20px;
+}
+
+form span {
+    padding: 0px 20px;
+}
+
+input, input[type=password], input[type=search] {
+    padding: 12px 120px 12px 40px;
+    border: none;
+    border-radius: 7px;
+    text-align: left;
+
+}
+
+input, input[type=password], input[type=search]::before {
+    background-image: url("img/subscription_email_icon.gif");
+    background-repeat: no-repeat;
+    background-position: 5%;
+
+}
+
+input[type=submit] {
+    border: none;
+    color: white;
+    align-content: center;
+    background: #dac26c;
+    padding: 10px 50px;
+    border-radius: 7px;
+    margin-left: 20px;
+    min-height: 40px;
+    min-width: 100px;
+}
+
+input[type=submit]:hover {
+    border: none;
+    color: white;
+    align-content: center;
+    background: dimgray;
+    padding: 10px 50px;
+    border-radius: 7px;
+    margin-left: 20px;
+    min-height: 40px;
+    min-width: 100px;
+}
+
+
+
+
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    bottom:0;
+    background: #d8d9dd;
+    color: grey;
+}
+
+footer .footerlogo {
+    flex-direction: column;
+    padding: 50px 25px 0px 100px;
+}
+
+footer .footerlinks {
+    flex-direction: column;
+    line-height: .5em;
+    padding: 50px 25px 0px 24px;
+
+}
+
+footer .footermap {
+    flex-direction:column;
+    padding: 50px 25px 0px 25px;
+
+}
+
+footer .footeraddress {
+    flex-direction:column;
+    line-height: .5em;
+    padding: 50px 100px 50px 25px;
+
+}
+
+footer .footeraddress .copyright {
+    color: black;
+}
+
+footer input[type=submit] {
+    border: none;
+    color: white;
+    align-content: center;
+    background: cornflowerblue;
+    padding: 10px 50px;
+    border-radius: 7px;
+    min-height: 40px;
+    min-width: 100px;
+    margin: 0px;
+}
+
+footer input[type=submit]:hover {
+    border: none;
+    color: white;
+    align-content: center;
+    background: dimgray;
+    padding: 10px 50px;
+    border-radius: 7px;
+    min-height: 40px;
+    min-width: 100px;
+    margin: 0px;
+
+}
+
+a:-webkit-any-link {
+    color: grey;
+    text-decoration: none;
+    cursor: auto;
+}
+
+a:hover {
+    color:black;
+}
