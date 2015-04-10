@@ -116,6 +116,7 @@ title {
 
 .graph img {
     min-width:100%;
+    flex-flow: nowrap;
 }
 
 .signup {
